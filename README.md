@@ -1,2 +1,2 @@
 # Basic_Python_Projects
-Brushing up
+Built this Repositry to brush on my python prgramming skills.
