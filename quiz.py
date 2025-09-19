@@ -31,10 +31,31 @@ else:
 
 answer = input("What does PSU stand for? ")
 if answer.lower() == "power supply":
-    print('Correct!')
+    print('Correct!')    
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What does SSD stand for? ")
+if answer.lower() == "solid state drive":
+    print('Correct!')    
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What does HDD stand for? ")
+if answer.lower() == "hard disk drive":
+    print('Correct!')    
+    score += 1
+else:
+    print("Incorrect!")
+
+answer = input("What does OS stand for? ")
+if answer.lower() == "operating system":
+    print('Correct!')    
     score += 1
 else:
     print("Incorrect!")
 
 print("You got " + str(score) + " questions correct!")
-print("You got " + str((score / 4) * 100) + "%.")
+print("You got {}%.".format((score / 7) * 100))
